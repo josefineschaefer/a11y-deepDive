@@ -1,21 +1,21 @@
-<header class="w-full h-24 bg-[#f7f6fd]">
+<header class="w-full h-24 bg-[#cddcd0]">
 	<div class="container h-full mx-auto flex items-center justify-between">
 		<a href="home">
-			<h1 class="text-[#50b0ae] text-3xl font-bold">Storyblok SvelteKit</h1>
+			<h1 class="text-[#402d1f] text-3xl font-bold">Accessible NavBar</h1>
 		</a>
 		<nav>
 			<ul class="flex space-x-8 text-lg font-bold">
-				<li class="hover:text-[#50b0ae]">
-					<a href="#"> Menu Item </a>
+				<li>
+					<a href="https://www.bbc.com/"> Menu Item </a>
 				</li>
 				<li class="hover:text-[#50b0ae]">
-					<a href="#"> Menu Item </a>
+					<a href="https://www.bbc.com/"> Menu Item </a>
 				</li>
 				<li class="hover:text-[#50b0ae]">
-					<a href="#"> Menu Item </a>
+					<a href="https://www.bbc.com/"> Menu Item </a>
 				</li>
 				<li class="hover:text-[#50b0ae]">
-					<a href="#"> Menu Item </a>
+					<a href="https://www.bbc.com/"> Menu Item </a>
 				</li>
 			</ul>
 		</nav>
