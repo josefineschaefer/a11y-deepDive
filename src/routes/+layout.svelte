@@ -4,7 +4,7 @@
 	import '../app.css';
 </script>
 
-<main>
-	<Header />
+<Header />
+<main id="main">
 	<slot />
 </main>
