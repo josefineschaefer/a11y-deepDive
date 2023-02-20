@@ -1,4 +1,4 @@
-<header class="w-full h-24 bg-[#cddcd0]">
+<header class="w-full h-24 bg-[#c0cfdd]">
 	<a href="#main" class="skip">Skip to main content</a>
 	<div class="container h-full mx-auto flex items-center justify-between">
 		<a href="home">
