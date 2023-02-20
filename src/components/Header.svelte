@@ -1,4 +1,5 @@
-<header class="w-full h-24 bg-[#c0cfdd]">
+<header class="w-full h-24 bg-[#cddcd0]">
+	<a href="#main" class="skip">Skip to main content</a>
 	<div class="container h-full mx-auto flex items-center justify-between">
 		<a href="home">
 			<h1 class="text-[#0b2032] text-3xl font-bold">Accessible NavBar</h1>
@@ -21,3 +22,20 @@
 		</nav>
 	</div>
 </header>
+
+<style lang="css">
+	.skip {
+		position: absolute;
+		left: -10000px;
+		top: auto;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+	}
+
+	.skip:focus {
+		position: static;
+		width: auto;
+		height: auto;
+	}
+</style>
