@@ -5,7 +5,7 @@
 
 <div>
 	<div class="container mx-auto mb-12">
-		<h1 class="text-6xl text-[#50b0ae] font-bold mt-12 mb-4">A Headline H1</h1>
+		<h1 class="text-6xl text-[#0b2032] font-bold mt-12 mb-4">A Headline H1</h1>
 		<h2 class="text-2xl text-[#1d243d] font-bold mb-4">A Headline H2</h2>
 		<div>
 			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed sapien eu tellus bibendum

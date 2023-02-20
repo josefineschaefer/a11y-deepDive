@@ -1,7 +1,7 @@
-<header class="w-full h-24 bg-[#cddcd0]">
+<header class="w-full h-24 bg-[#c0cfdd]">
 	<div class="container h-full mx-auto flex items-center justify-between">
 		<a href="home">
-			<h1 class="text-[#402d1f] text-3xl font-bold">Accessible NavBar</h1>
+			<h1 class="text-[#0b2032] text-3xl font-bold">Accessible NavBar</h1>
 		</a>
 		<nav>
 			<ul class="flex space-x-8 text-lg font-bold">
