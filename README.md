@@ -19,3 +19,7 @@ npm install
 npm install
 
 ```
+
+## Note
+
+Please note that for demo purposes, not everything is 100% accessible in this repo.
