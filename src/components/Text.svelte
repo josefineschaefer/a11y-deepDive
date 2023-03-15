@@ -1,5 +1,5 @@
 <script>
-	import forest from '$lib/images/forest.jpeg';
+	import Accessibility_Deep_Dive from '$lib/images/Accessibility_Deep_Dive.png';
 	import Button from './Button.svelte';
 </script>
 
@@ -34,7 +34,7 @@
 		<br />
 		<Button>Learn more</Button>
 	</div>
-	<img src={forest} alt="Alternativ Text" class="w-full h-[360px] lg:h-[450px] object-cover" />
+	<img src={Accessibility_Deep_Dive} alt="Alternativ Text" class="w-full object-cover" />
 </div>
 
 <style lang="postcss">
