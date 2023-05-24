@@ -3,6 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+
+	h3 {
+		@apply text-xl text-[#1d243d] font-bold my-4;
+	}
+
     a:focus {
         @apply ring-2 ring-red-500 outline-none
 	}
