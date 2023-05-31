@@ -4,6 +4,14 @@
 
 @layer base {
 
+    h1{
+        @apply text-6xl font-bold mb-5
+    }
+
+    h2{
+        @apply text-4xl font-light mb-6
+    }
+
 	h3 {
 		@apply text-xl text-[#1d243d] font-bold my-4;
 	}
