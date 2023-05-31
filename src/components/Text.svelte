@@ -53,9 +53,6 @@
 </div>
 
 <style lang="postcss">
-	h3 {
-		@apply text-xl text-[#1d243d] font-bold mb-4;
-	}
 	a {
 		@apply underline text-blue-600 hover:text-blue-800 visited:text-purple-600;
 	}
