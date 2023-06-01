@@ -2,7 +2,10 @@
 module.exports = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		fontFamily: {
+			Manrope: 'Manrope, sans-serif',
+			Playfair: 'Playfair Display, serif'
+		}
 	},
 	plugins: []
 };
