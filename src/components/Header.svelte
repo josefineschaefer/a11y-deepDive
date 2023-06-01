@@ -7,16 +7,16 @@
 		<nav>
 			<ul class="flex space-x-8">
 				<li>
-					<a href="https://www.bbc.com/"> About </a>
+					<a href="/about"> About </a>
 				</li>
 				<li>
-					<a href="https://www.bbc.com/"> Blog </a>
+					<a href="/blog"> Blog </a>
 				</li>
 				<li>
-					<a href="https://www.bbc.com/"> Resources </a>
+					<a href="/resources"> Resources </a>
 				</li>
 				<li>
-					<a href="https://www.bbc.com/"> Get in Touch </a>
+					<a href="/contact"> Get in Touch </a>
 				</li>
 			</ul>
 		</nav>
