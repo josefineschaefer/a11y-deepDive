@@ -1,15 +1,17 @@
 <script>
 	import PointingRightFinger from '../components/Icons/PointingRightFinger.svelte';
+	import { storyblokEditable } from '@storyblok/svelte';
+	export let blok;
+
+	blok.headline = 'Hello World';
 </script>
 
-<section class="h-screen flex items-center justify-start p-9">
+<section use:storyblokEditable={blok} class="h-screen flex items-center justify-start p-9">
 	<div>
-		<h1>Accessibility benefits <span class="font-Playfair italic">Everyone</span></h1>
+		<h1>{blok.headline}</h1>
 		<h2>
-			One Step at a Time towards a more <span class="font-Playfair italic">Inclusive Web</span>
+			{blok.subheadline}
 		</h2>
-		<a class="inline-flex" href="/Resources">
-			<PointingRightFinger />Get Started with Web Accessibility</a
-		>
+		<!-- <a class="inline-flex" href="/Resources"> <PointingRightFinger />{blok.link}</a> -->
 	</div>
 </section>

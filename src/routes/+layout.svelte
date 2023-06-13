@@ -1,10 +1,10 @@
 <script>
-	import Header from '../components/Header.svelte';
-
 	import '../app.css';
+	import Header from '../components/Header.svelte';
+	export let data;
 </script>
 
-<Header />
-<main id="main">
+<main>
+	<Header header={data.header} />
 	<slot />
 </main>

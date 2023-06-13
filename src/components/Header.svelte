@@ -1,9 +1,13 @@
+<script>
+	import Accessibility from '$lib/images/Accessibility.png';
+</script>
+
 <header
 	class="sticky top-0 z-40 left-0 bg-gradient-to-r from-orange-400/90 to-pink-500/90 backdrop-blur-md w-full h-20 border-b-[1px] border-black border-solid"
 >
 	<a href="#main" class="skip">Skip to main content</a>
 	<div class="container flex mx-auto items-center justify-between h-full">
-		<a href="home"> <h1 class="text-4xl font-bold">A11y for All</h1></a>
+		<img class="w-20" src={Accessibility} alt="accessibility logo" />
 		<nav>
 			<ul class="flex space-x-8">
 				<li>
